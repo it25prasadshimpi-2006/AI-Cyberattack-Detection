@@ -7,7 +7,7 @@ import streamlit as st
 import plotly.express as px
 
 ROOT = Path(__file__).resolve().parent
-MODEL_PATH = ROOT / "models" / "best_model.joblib"
+MODEL_PATH = ROOT / "models" / "best_model_compressed.joblib"
 FEATURES_PATH = ROOT / "models" / "feature_columns.json"
 METRICS_PATH = ROOT / "results" / "model_comparison.csv"
 REPORT_PATH = ROOT / "results" / "classification_reports.json"
